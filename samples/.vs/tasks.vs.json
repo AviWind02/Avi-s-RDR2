@@ -1,0 +1,15 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-NativeTrainer",
+      "appliesTo": "NativeTrainer/",
+      "type": "launch"
+    },
+    {
+      "taskLabel": "task-NativeTrainer",
+      "appliesTo": "NativeTrainer/",
+      "type": "launch"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="keyboard.cpp">
+      <Filter>Trainer\Keys</Filter>
+    </ClCompile>
+    <ClCompile Include="script.cpp">
+      <Filter>Trainer\Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="gui.cpp">
+      <Filter>Trainer\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Trainer\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Self.cpp">
+      <Filter>Submenu\Self</Filter>
+    </ClCompile>
+    <ClCompile Include="entity.cpp">
+      <Filter>Trainer\common</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\inc\types.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\enums.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\natives.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\inc\main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="keyboard.h">
+      <Filter>Trainer\Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="script.h">
+      <Filter>Trainer\Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="gui.h">
+      <Filter>Trainer\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="entity.h">
+      <Filter>Trainer\common</Filter>
+    </ClInclude>
+    <ClInclude Include="Self.h">
+      <Filter>Submenu\Self</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{fe82bd4a-2d14-486a-8be5-8bf6b50a2414}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainer">
+      <UniqueIdentifier>{b0210a86-83eb-4c1d-bf3c-9af3e3639feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainer\GUI">
+      <UniqueIdentifier>{34286a38-5625-4605-adc5-49b5d8cf9837}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainer\Menu">
+      <UniqueIdentifier>{5e9b9f45-37ed-4eb0-a6b3-f401600c50ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainer\Other">
+      <UniqueIdentifier>{90b18379-fc58-4f67-a6ea-80bee690ffab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainer\Keys">
+      <UniqueIdentifier>{f698adf2-3aa5-464e-8de2-6a5adf717e3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Submenu">
+      <UniqueIdentifier>{6506b9ba-7e24-4101-a68c-f1731e3bcfe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Submenu\Self">
+      <UniqueIdentifier>{40e56b41-40a2-4e6a-9432-a93341962162}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trainer\common">
+      <UniqueIdentifier>{378d3568-96e3-42fa-bcc6-9cee1b0b0b24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
